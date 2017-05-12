@@ -1,0 +1,26 @@
+﻿Build started 2017/5/11 11:19:30.
+     1>Project "D:\Source_Code\MFC_Practice\MFC_Practice\MFC_Practice.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC_Practice.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MFC_Practice.cpp MFC_PracticeDlg.cpp
+         MFC_PracticeDlg.cpp
+     1>d:\source_code\mfc_practice\mfc_practice\mfc_practicedlg.cpp(217): warning C4101: 'total_t' : unreferenced local variable
+     1>d:\source_code\mfc_practice\mfc_practice\mfc_practicedlg.cpp(316): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\source_code\mfc_practice\mfc_practice\mfc_practicedlg.cpp(319): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+         Compiling...
+         MFC_Practice.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\MFC_Practice.res" MFC_Practice.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Source_Code\MFC_Practice\Debug\MFC_Practice.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Source_Code\MFC_Practice\Debug\MFC_Practice.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Source_Code\MFC_Practice\Debug\MFC_Practice.lib" Debug\MFC_Practice.res
+         Debug\MFC_Practice.obj
+         Debug\MFC_PracticeDlg.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+         MFC_Practice.vcxproj -> D:\Source_Code\MFC_Practice\Debug\MFC_Practice.exe
+     1>Done Building Project "D:\Source_Code\MFC_Practice\MFC_Practice\MFC_Practice.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.37
